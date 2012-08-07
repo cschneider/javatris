@@ -6,10 +6,7 @@ import javax.swing.JApplet;
 /**
  * Starting point for use of tetris as an applet.
  * This class simply loads the Tetris panel class
- * as it´s content pane
- * 
- * @author chris
- *
+ * as its content pane
  */
 public class TetrisApplet extends JApplet {
 

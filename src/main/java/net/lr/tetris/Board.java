@@ -1,18 +1,10 @@
 package net.lr.tetris;
 
-/*
- * Created on 01.01.2004
- *
- */
-
 /**
- * Implements the Tetris gameboard. 
+ * Implements the Tetris game board. 
  * 
  * Supports clearing the field, setting and reading single fields.
- * Removelines supports deleting full lines and moving the rest down.
- * 
- * @author chris
- *
+ * Remove lines supports deleting full lines and moving the rest down.
  */
 public class Board {
 

@@ -15,13 +15,10 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 /**
- * Implements a highscore table.
+ * High score table.
  * 
  * Supports adding a new score a the correct location in the table and checking
  * if a score makes it into the list.
- * 
- * @author chris
- * 
  */
 public class ScoreList extends ArrayList<Score> {
 
@@ -52,7 +49,7 @@ public class ScoreList extends ArrayList<Score> {
 
 	/**
 	 * Adds the score s into the highscore list. If the score is too low it
-	 * won´t be added.
+	 * wont be added.
 	 * 
 	 * @param s
 	 * @return

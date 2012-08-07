@@ -7,10 +7,7 @@ package net.lr.tetris;
 import java.io.Serializable;
 
 /**
- * Simply contains a highscor entry
- * 
- * @author chris
- *
+ * high score entry
  */
 public class Score implements Serializable {
 	/**

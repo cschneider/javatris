@@ -13,8 +13,6 @@ import javax.swing.JPanel;
  * Displays the Highscores
  * 
  * The scores themself are modelled in the ScoreList class
- *
- *  @author chris
  */
 public class ScorePanel extends JPanel {
 

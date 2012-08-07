@@ -10,36 +10,13 @@ import java.util.Properties;
 import javax.swing.ButtonGroup;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-
-/* 
-    Created on 02.01.2004
-
-    Copyright (C) 2004 Christian Schneider
-
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
- */
-
+    
 /**
  * Java Tetris main class
  * 
  * Implements the Controller part of the Tetris game.
  * Reacts on keyboard input and starts a thread for
  * moving the stone down after a certain amount of time.
- *
- * @author chris
- * @since 2004
  */
 public class Tetris extends JPanel implements Runnable {
 		
@@ -248,7 +225,7 @@ public class Tetris extends JPanel implements Runnable {
 	/**
 	 * Try to move down the stone
 	 * 
-	 * Places the stone one line below it´s current position if possible.
+	 * Places the stone one line below its current position if possible.
 	 * If the stone hits a filled block the board is cleared of full lines and the score
 	 * is increased.
 	 * 

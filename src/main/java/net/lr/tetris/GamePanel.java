@@ -4,16 +4,9 @@ import java.awt.Graphics;
 
 import javax.swing.JPanel;
 
-/*
- * Created on 01.01.2004
- *
- */
 
 /**
  * Implements a Panel to display a tetris gameboard
- * 
- * @author chris
- *
  */
 public class GamePanel extends JPanel {
 

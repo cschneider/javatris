@@ -3,11 +3,6 @@ package net.lr.tetris;
 import java.util.Random;
 
 
-/*
- * Created on 02.01.2004
- *
- */
-
 /**
  * Models a stone in the Tetris game
  * 
@@ -18,8 +13,6 @@ import java.util.Random;
  * 
  * The moving of a stone is modeled inside the Tetris class as it
  * has some important effects on the game.
- * 
- * @author chris
  */
 public class Stone extends Board {
 	int posX;

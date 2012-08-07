@@ -7,10 +7,7 @@ import javax.swing.UIManager;
  * Starting point for use of Tetris as a standalone
  * Application
  * 
- * Simply loads the Tetris class as it´s content Pane
- * 
- * @author chris
- *
+ * Simply loads the Tetris class as its content Pane
  */
 public class TetrisFrame extends JFrame {
 
